@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       <section>
-        <Container>
+        <Container fluid>
           <Row className="justify-content-center">
             <Col sm={10}>
               <div className="text-center">
@@ -69,6 +69,25 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
+        <section className="primary-color-bg worship-section section-padding">
+          <Container>
+            <Row className="justify-content-center align-items-center">
+              <Col>
+                <p className="text-center">WORSHIP WITH US THIS SUNDAY</p>
+              </Col>
+              <Col sm={10}>
+                <DefaultButton bg="bg-white" content="First Service: 6:30AM" />
+                <DefaultButton bg="bg-white" content="Second Service: 8:10AM" />
+                <DefaultButton bg="bg-white" content="Third Service: 9:15AM" />
+                <DefaultButton
+                  bg="bg-white"
+                  content="Fourth Service: 10:20AM"
+                />
+                <DefaultButton bg="bg-white" content="Fifth Service: 12:00PM" />
+              </Col>
+            </Row>
+          </Container>
+        </section>
       </section>
       <footer className="cntr-footer"></footer>
     </>

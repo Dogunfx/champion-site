@@ -73,9 +73,12 @@ h6,
   color: #444343;
   padding: 8px 40px;
   margin-bottom: 15px;
+  text-align: center;
+  margin-left: 5px;
   border-radius: 3em;
   cursor: pointer;
 }
+
 .default-button.btn-icon .icon.fa {
   width: 15px;
 }
@@ -96,13 +99,19 @@ h6,
 }
 
 .primary-color-text {
-  background: none;
   color: #ffc107 !important;
+}
+
+.primary-color-bg {
+  background-color: #ffc107;
 }
 
 .basic-navbar-nav {
   position: static;
   background: none;
+}
+.section-padding {
+  padding: 25px;
 }
 
 @media (max-width: 750px) {
@@ -118,5 +127,8 @@ h6,
     width: 100%;
     top: 100px;
     z-index: 999;
+  }
+  .default-button {
+    display: block;
   }
 }

@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </Col>
           </Row>
-          <Row className="justify-content-center text-center">
+          <Row className="justify-content-center text-center align-items-center">
             <Col sm={2}>
               <p>NEW HERE?</p>
             </Col>

@@ -1,9 +1,21 @@
 /* ensure all pages have Bootstrap CSS */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+@import url("//db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=Myriad+Pro");
 
-body{
+body {
   font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.default-button,
+.default-heading {
+  font-family: "Myriad Pro", sans-serif;
 }
 
 .banner .fa {

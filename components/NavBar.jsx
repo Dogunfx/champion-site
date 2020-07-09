@@ -98,17 +98,13 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
+                <CustomizedSwitches />
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </Col>
-        <Col sm={3} className="col-3">
+        <Col sm={1} className="col-3">
           <Row className="align-items-center">
-            <Col sm={3}>
-              <div className="">
-                <CustomizedSwitches />
-              </div>
-            </Col>
             <Col>
               <div className="p-3 text-right ">
                 <img

@@ -1,5 +1,10 @@
 /* ensure all pages have Bootstrap CSS */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
+p {
+  font-family: "Raleway", sans-serif;
+}
 
 .banner .fa {
   width: 20px;

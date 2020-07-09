@@ -4,4 +4,4 @@ This website is the official website for RCCG Champion Cathedral in Warri
 
 # Live Demo
 
-https://rccg-champion-site.vercel.app/
+view the demo [demo](https://rccg-champion-site.vercel.app/):

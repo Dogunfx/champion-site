@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button
-} from "react-bootstrap";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
@@ -32,7 +22,7 @@ export default function NavBar() {
               <img
                 src="/images/rccg-logo.png"
                 alt=""
-                width="70"
+                width="60"
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>

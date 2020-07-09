@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Container, Jumbotron, Row, Col } from "react-bootstrap";
 import Navbar from "../components/NavBar";
+import DefaultButton from "../components/DefaultButton";
+import { faEnvelope, faMapMarker } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <>
@@ -59,13 +61,11 @@ export default function Home() {
             <Col sm={2}>
               <p>NEW HERE?</p>
             </Col>
-            <Col sm={2}>
-              <p className="default-button default-button-sm">
-                Mail Us
-                 </p>
+            <Col sm={3}>
+              <DefaultButton content="Mail Us" icon={faEnvelope} />
             </Col>
             <Col sm={3}>
-              <p className="default-button default-button-sm">Find Location </p>
+              <DefaultButton content="Find Location" icon={faMapMarker} />
             </Col>
           </Row>
         </Container>

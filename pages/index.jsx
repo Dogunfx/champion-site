@@ -18,9 +18,12 @@ export default function Home() {
                   <span className="">WELCOME HOME</span>
                 </h1>
                 <p className="p-4">
-                  2020 for us in Champion Cathedral Family is Our year of a New
-                  Dawn, Divine Recognition and Multiple Victories. This will
-                  surely be your best year ever, in Jesus Name.
+                  <em>
+                    <strong>2020</strong> for us in Champion Cathedral Family is
+                    Our year of <strong> A New Dawn</strong>, Divine Recognition
+                    and Multiple Victories. This will surely be your best year
+                    ever, in Jesus Name.
+                  </em>
                 </p>
                 <hr />
               </Col>
@@ -29,6 +32,42 @@ export default function Home() {
         </Jumbotron>
       </div>
 
+      <section>
+        <Container>
+          <Row className="justify-content-center">
+            <Col xs={10}>
+              <div className="text-center">
+                <p className="p-4">
+                  Welcome to RCCG, Champion Cathedral Family. We are delighted
+                  to have you and we pray that the joy of the Almighty fill your
+                  heart as you flow with us, For in His presence, there is
+                  fulness of Joy and at His right hand there are pleasures
+                  forevermore, if you ara a first time visitor, please do visit
+                  us one of this sundays in His presence have a wonderful and
+                  fruitful stay in God's presence
+                </p>
+                <h4>
+                  <em>Pastor Emmanuel </em>
+                </h4>
+                <p>
+                  <em>(Pastor in charge, RCCG Champions Cathedral Family)</em>
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-center text-center">
+            <Col sm={2}>
+              <p>NEW HERE?</p>
+            </Col>
+            <Col sm={2}>
+              <p className="default-button default-button-sm">Mail Us </p>
+            </Col>
+            <Col sm={3}>
+              <p className="default-button default-button-sm">Find Location </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <footer className="cntr-footer"></footer>
     </>
   );

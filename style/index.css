@@ -31,7 +31,12 @@
 .default-button {
   font-size: 20px;
   background-color: #ffc107;
-  padding: 10px 30px;
+  padding: 10px 40px;
   display: inline-block;
   border-radius: 3em;
+  cursor: pointer;
+}
+
+.default-button.default-button-sm {
+  font-size: 15px;
 }

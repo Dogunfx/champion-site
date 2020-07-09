@@ -73,7 +73,9 @@ export default function Home() {
           <Container>
             <Row className="justify-content-center align-items-center">
               <Col>
-                <p className="text-center">WORSHIP WITH US THIS SUNDAY</p>
+                <p className="text-center">
+                  <strong>WORSHIP WITH US THIS SUNDAY</strong>
+                </p>
               </Col>
               <Col sm={10}>
                 <DefaultButton bg="bg-white" content="First Service: 6:30AM" />

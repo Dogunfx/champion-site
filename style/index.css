@@ -1,0 +1,23 @@
+/* ensure all pages have Bootstrap CSS */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.banner .fa {
+  width: 20px;
+  color: white;
+}
+.banner label {
+  color: white;
+}
+
+.banner {
+  /* background-color: red; */
+  background-image: url("/images/banner-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+}
+
+.banner * {
+  background: none;
+}

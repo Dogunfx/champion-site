@@ -19,6 +19,8 @@ import {
   faAlignJustify,
   faMoneyCheck
 } from "@fortawesome/free-solid-svg-icons";
+import CustomizedSwitches from "../components/SwitchComponent";
+
 export default function NavBar() {
   return (
     <Container fluid>
@@ -96,6 +98,9 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
+                <div className="">
+                  <CustomizedSwitches />
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

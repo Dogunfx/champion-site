@@ -16,6 +16,7 @@ import {
   faUser,
   faPlay,
   faHeart,
+  faCalendar,
   faAlignJustify,
   faMoneyCheck
 } from "@fortawesome/free-solid-svg-icons";
@@ -26,7 +27,7 @@ export default function NavBar() {
     <Container fluid>
       <Row className="align-items-center">
         <Col className="mr-auto ">
-          <Navbar bg="" variant="dark" expand="lg">
+          <Navbar bg="" variant="dark" expand="lg" className="myBar">
             <Navbar.Brand href="#home">
               <img
                 src="/images/rccg-logo.png"
@@ -39,7 +40,7 @@ export default function NavBar() {
               aria-controls="basic-navbar-nav"
               className="primary-color-text "
             />
-            <Navbar.Collapse id="basic-navbar-nav ">
+            <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
               <Nav className="ml-auto bar">
                 <Nav.Link href="#home">
                   <Row>
@@ -51,7 +52,7 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <Nav.Link href="#link">
+                <Nav.Link href="#Connect">
                   <Row>
                     <Col xs={2}>
                       <FontAwesomeIcon icon={faUser} className="fa" />
@@ -61,7 +62,7 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <Nav.Link href="#link">
+                <Nav.Link href="#watch">
                   <Row>
                     <Col xs={2}>
                       <FontAwesomeIcon icon={faPlay} className="fa" />
@@ -71,7 +72,7 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <Nav.Link href="#link">
+                <Nav.Link href="#Church">
                   <Row>
                     <Col xs={2}>
                       <FontAwesomeIcon icon={faHeart} className="fa" />
@@ -81,7 +82,17 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <Nav.Link href="#link" className="active">
+                <Nav.Link href="#calendar">
+                  <Row>
+                    <Col xs={2}>
+                      <FontAwesomeIcon icon={faCalendar} className="fa" />
+                    </Col>
+                    <Col>
+                      <label>Church Calendar</label>
+                    </Col>
+                  </Row>
+                </Nav.Link>
+                <Nav.Link href="#give" className="active">
                   <Row>
                     <Col xs={2}>
                       <FontAwesomeIcon icon={faMoneyCheck} className="fa" />

@@ -19,7 +19,7 @@ h6,
 }
 
 .banner .fa {
-  width: 20px;
+  width: 18px;
   color: white;
 }
 .banner label {
@@ -37,6 +37,20 @@ h6,
 
 .banner * {
   background: none;
+}
+
+.myBar {
+  /* position: relative; */
+}
+
+.basic-navbar-nav {
+  background-color: rgba(0, 0, 0, 0.61);
+  position: absolute;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  top: 100px;
+  z-index: 999;
 }
 
 .banner hr {
@@ -84,9 +98,23 @@ h6,
   color: #ffc107 !important;
 }
 
-@media screen and (max-width: 750px) {
+.basic-navbar-nav {
+  position: static;
+  background: none;
+}
+
+@media (max-width: 750px) {
   .no-padding-sm {
     /* background-color: red; */
     padding: 10px !important;
+  }
+  .basic-navbar-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    top: 100px;
+    z-index: 999;
   }
 }

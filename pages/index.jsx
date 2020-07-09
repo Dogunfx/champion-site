@@ -47,7 +47,7 @@ export default function Home() {
                   fruitful stay in God's presence
                 </p>
                 <h4>
-                  <em>Pastor Emmanuel </em>
+                  <em>Pastor Emmanuel Emefienim </em>
                 </h4>
                 <p>
                   <em>(Pastor in charge, RCCG Champions Cathedral Family)</em>
@@ -60,7 +60,9 @@ export default function Home() {
               <p>NEW HERE?</p>
             </Col>
             <Col sm={2}>
-              <p className="default-button default-button-sm">Mail Us </p>
+              <p className="default-button default-button-sm">
+                Mail Us
+                 </p>
             </Col>
             <Col sm={3}>
               <p className="default-button default-button-sm">Find Location </p>

@@ -17,7 +17,7 @@ export default function Home() {
                 <h1 className="default-button">
                   <span className="">WELCOME HOME</span>
                 </h1>
-                <p className="p-4">
+                <p className="p-4 no-padding-sm">
                   <em>
                     <strong>2020</strong> for us in Champion Cathedral Family is
                     Our year of <strong> A New Dawn</strong>, Divine Recognition
@@ -35,9 +35,9 @@ export default function Home() {
       <section>
         <Container>
           <Row className="justify-content-center">
-            <Col xs={10}>
+            <Col sm={10}>
               <div className="text-center">
-                <p className="p-4">
+                <p className="p-4 no-padding-sm">
                   Welcome to RCCG, Champion Cathedral Family. We are delighted
                   to have you and we pray that the joy of the Almighty fill your
                   heart as you flow with us, For in His presence, there is

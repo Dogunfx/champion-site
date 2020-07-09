@@ -16,14 +16,15 @@ import {
   faUser,
   faPlay,
   faHeart,
+  faAlignJustify,
   faMoneyCheck
 } from "@fortawesome/free-solid-svg-icons";
 export default function NavBar() {
   return (
     <Container fluid>
       <Row>
-        <Col className="mr-auto">
-          <Navbar expand="lg">
+        <Col className="mr-auto ">
+          <Navbar bg="" variant="dark" expand="lg">
             <Navbar.Brand href="#home">
               <img
                 src="/images/rccg-logo.png"
@@ -32,9 +33,12 @@ export default function NavBar() {
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto">
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              className="primary-color-text "
+            />
+            <Navbar.Collapse id="basic-navbar-nav ">
+              <Nav className="ml-auto bar">
                 <Nav.Link href="#home">
                   <Row>
                     <Col xs={2}>
@@ -75,7 +79,7 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <Nav.Link href="#link">
+                <Nav.Link href="#link" className="active">
                   <Row>
                     <Col xs={2}>
                       <FontAwesomeIcon icon={faMoneyCheck} className="fa" />
@@ -85,12 +89,19 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
+                <Nav.Link href="#link">
+                  <Row>
+                    <Col xs={2}>
+                      <FontAwesomeIcon icon={faAlignJustify} className="fa" />
+                    </Col>
+                  </Row>
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </Col>
-        <Col xs={3}>
-          <div className="p-3 text-right">
+        <Col sm={1} className="col-3">
+          <div className="p-3 text-right ">
             <img
               src="/images/logo.png"
               alt=""

@@ -28,6 +28,17 @@
   background-color: #ffc107;
 }
 
+.bar .active {
+  background-color: #ffc107;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bar .active .fa,
+.bar .active label {
+  color: #303030;
+}
+
 .default-button {
   font-size: 20px;
   background-color: #ffc107;
@@ -43,4 +54,22 @@
 
 .c-img {
   /* max-width: 70px; */
+}
+
+/* utilities styles */
+
+.test-bg {
+  background-color: red;
+}
+
+.primary-color-text {
+  background: none;
+  color: #ffc107 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .no-padding-sm {
+    /* background-color: red; */
+    padding: 10px !important;
+  }
 }

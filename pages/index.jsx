@@ -14,8 +14,10 @@ export default function Home() {
           <Container className="text-center">
             <Row className="justify-content-center">
               <Col xs={8}>
-                <h1>WELCOME HOME</h1>
-                <p>
+                <h1 className="default-button">
+                  <span className="">WELCOME HOME</span>
+                </h1>
+                <p className="p-4">
                   2020 for us in Champion Cathedral Family is Our year of a New
                   Dawn, Divine Recognition and Multiple Victories. This will
                   surely be your best year ever, in Jesus Name.

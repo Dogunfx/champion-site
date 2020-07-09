@@ -21,3 +21,17 @@
 .banner * {
   background: none;
 }
+
+.banner hr {
+  height: 1px;
+  border-radius: 3em;
+  background-color: #ffc107;
+}
+
+.default-button {
+  font-size: 20px;
+  background-color: #ffc107;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 3em;
+}

@@ -24,7 +24,7 @@ import CustomizedSwitches from "../components/SwitchComponent";
 export default function NavBar() {
   return (
     <Container fluid>
-      <Row>
+      <Row className="align-items-center">
         <Col className="mr-auto ">
           <Navbar bg="" variant="dark" expand="lg">
             <Navbar.Brand href="#home">
@@ -98,22 +98,28 @@ export default function NavBar() {
                     </Col>
                   </Row>
                 </Nav.Link>
-                <div className="">
-                  <CustomizedSwitches />
-                </div>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
         </Col>
-        <Col sm={1} className="col-3">
-          <div className="p-3 text-right ">
-            <img
-              src="/images/logo.png"
-              alt=""
-              width="80"
-              className="d-inline-block align-top"
-            />
-          </div>
+        <Col sm={3} className="col-3">
+          <Row className="align-items-center">
+            <Col sm={3}>
+              <div className="">
+                <CustomizedSwitches />
+              </div>
+            </Col>
+            <Col>
+              <div className="p-3 text-right ">
+                <img
+                  src="/images/logo.png"
+                  alt=""
+                  width="80"
+                  className="d-inline-block align-middle"
+                />
+              </div>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>

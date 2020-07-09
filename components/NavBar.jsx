@@ -89,13 +89,13 @@ export default function NavBar() {
             </Navbar.Collapse>
           </Navbar>
         </Col>
-        <Col xs={2}>
-          <div className="p-3">
+        <Col xs={3}>
+          <div className="p-3 text-right">
             <img
               src="/images/logo.png"
               alt=""
               width="80"
-              className="d-inline-block align-top "
+              className="d-inline-block align-top"
             />
           </div>
         </Col>

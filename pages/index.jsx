@@ -1,8 +1,15 @@
 import Head from "next/head";
-import { Container, Jumbotron, Row, Col } from "react-bootstrap";
+import {
+  Container,
+  Jumbotron,
+  Row,
+  Col,
+  ResponsiveEmbed
+} from "react-bootstrap";
 import Navbar from "../components/NavBar";
 import DefaultButton from "../components/DefaultButton";
 import { faEnvelope, faMapMarker } from "@fortawesome/free-solid-svg-icons";
+import HRSection from "../components/HrComponent";
 export default function Home() {
   return (
     <>
@@ -91,6 +98,131 @@ export default function Home() {
           </Container>
         </section>
       </section>
+
+      <section className="section-padding-big">
+        <Container fluid>
+          <Row className="justify-content-center  align-items-center ">
+            <Col sm={9} className="" lg={{ order: "last" }}>
+              <div className="embed-container ">
+                <ResponsiveEmbed aspectRatio="16by9">
+                  <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/Q2SlMhRQjUM"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </ResponsiveEmbed>
+              </div>
+            </Col>
+            <Col sm={3} className="align-left">
+              <img src="/images/offering.png" alt="" className="img-fluid" />
+            </Col>
+          </Row>
+          <section className="section-padding">
+            <Row className="justify-content-center ">
+              <Col sm={8}>
+                <DefaultButton bg="" content="Give" />
+                <DefaultButton bg="" content="Prayer Request" />
+                <DefaultButton bg="" content="New Convert" />
+                <DefaultButton bg="" content="Share Testimony" />
+              </Col>
+            </Row>
+          </section>
+        </Container>
+      </section>
+
+      {/* start of the outreach section */}
+
+      <section>
+        <HRSection title="Our Outreach">
+          <div className="section-padding">
+            <Row>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img
+                    src="/images/outreach-1.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img
+                    src="/images/outreach-2.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img
+                    src="/images/outreach-3.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img
+                    src="/images/outreach-4.jpg"
+                    alt=""
+                    className="img-fluid"
+                  />
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </HRSection>
+      </section>
+
+      {/* end of the outreach section */}
+
+      <section className="section-padding-big">
+        <HRSection title="Our Outreach">
+          <div className="section-padding">
+            <Row>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img src="/images/group-1.jpg" alt="" className="img-fluid" />
+                </div>
+                <div className="text-center">
+                  <h5>EXCELLENT MEN</h5>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img src="/images/group-2.jpg" alt="" className="img-fluid" />
+                </div>
+                <div className="text-center">
+                  <h5>GOOD WOMEN</h5>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img src="/images/group-3.jpg" alt="" className="img-fluid" />
+                </div>
+                <div className="text-center">
+                  <h5>REIGNING CHAMPS (YOUTH)</h5>
+                </div>
+              </Col>
+              <Col sm={3}>
+                <div className="img-space">
+                  <img src="/images/group-4.jpg" alt="" className="img-fluid" />
+                </div>
+                <div className="text-center">
+                  <h5>CHILDREN</h5>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </HRSection>
+      </section>
+
       <footer className="cntr-footer"></footer>
     </>
   );

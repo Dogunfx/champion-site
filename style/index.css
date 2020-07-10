@@ -114,11 +114,31 @@ h6,
   padding: 25px;
 }
 
+.section-padding-big {
+  padding: 100px 25px;
+}
+
+.embed-container {
+  width: 80%;
+  height: auto;
+}
+
+.hr-section .hr-heading {
+  text-transform: uppercase;
+}
+.img-space {
+  padding: 10px;
+}
 @media (max-width: 750px) {
   .no-padding-sm {
     /* background-color: red; */
     padding: 10px !important;
   }
+
+  .img-space {
+    margin-bottom: 10px;
+  }
+
   .basic-navbar-nav {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
@@ -127,6 +147,14 @@ h6,
     width: 100%;
     top: 100px;
     z-index: 999;
+  }
+
+  .embed-container {
+    width: 100%;
+  }
+  .section-padding-big,
+  .section-padding {
+    padding: 20px;
   }
   .default-button {
     display: block;

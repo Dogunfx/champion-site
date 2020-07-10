@@ -129,6 +129,38 @@ h6,
 .img-space {
   padding: 10px;
 }
+
+.overlay-bg {
+  background-image: url("/images/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.overlay-color {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.form-control-group {
+  padding: 10px;
+}
+.form-control-input-style {
+  border: none;
+  background: none;
+  border-radius: 0;
+  color: white !important;
+  border-bottom: 4px solid #ffc107;
+  /* border-radius: 4em; */
+}
+.form-control-input-style:hover,
+.form-control-input-style:active,
+.form-control-input-style:focus {
+  background: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 4px solid #ffc107;
+}
+
 @media (max-width: 750px) {
   .no-padding-sm {
     /* background-color: red; */

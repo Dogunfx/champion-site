@@ -4,6 +4,8 @@ import {
   Jumbotron,
   Row,
   Col,
+  Form,
+  Button,
   ResponsiveEmbed
 } from "react-bootstrap";
 import Navbar from "../components/NavBar";
@@ -222,6 +224,71 @@ export default function Home() {
           </div>
         </HRSection>
       </section>
+
+      {/* Contact us form begins */}
+
+      <section className="overlay-bg">
+        <div className="overlay-color section-padding-big">
+          <Container>
+            <h3 className="text-warning text-center">CONTACT US</h3>
+            <Row className="align-items-end">
+              <Col sm={6}>
+                <Form>
+                  <Form.Group className="form-control-group">
+                    <Form.Control
+                      className="form-control-input-style"
+                      type="text"
+                      placeholder="Enter Full Name"
+                    />
+                  </Form.Group>
+                  <Form.Group className="form-control-group">
+                    <Form.Control
+                      className="form-control-input-style"
+                      type="email"
+                      placeholder="Enter Email"
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="form-control-group">
+                    <Form.Control
+                      className="form-control-input-style"
+                      type="text"
+                      placeholder="Enter Phone Number"
+                    />
+                  </Form.Group>
+                </Form>
+              </Col>
+              <Col>
+                <Form.Group controlId="form-control-group">
+                  <Form.Control
+                    as="textarea"
+                    rows="7"
+                    placeholder="Please leave a comment for us"
+                    className="form-control-input-style"
+                  />
+                </Form.Group>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={12}>
+                <p className="text-center text-warning section-padding">
+                  <em>
+                    If you like to Share your testimony, request for counseling
+                    prayer and comments, feel free to share with us
+                  </em>
+                </p>
+              </Col>
+            </Row>
+            <Row className="justify-content-center">
+              <Col sm={12} className="text-center">
+                <DefaultButton bg="" content="LEAVE A MESSAGE" />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </section>
+
+      {/* Contact us form end */}
 
       <footer className="cntr-footer"></footer>
     </>

@@ -110,7 +110,7 @@ export default function Home() {
                   <iframe
                     width="100%"
                     height="auto"
-                    src="https://www.youtube.com/embed/Q2SlMhRQjUM"
+                    src="https://www.youtube.com/embed/wEKrH_N4HAI"
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -185,7 +185,7 @@ export default function Home() {
       {/* end of the outreach section */}
 
       <section className="section-padding-big">
-        <HRSection title="Our Outreach">
+        <HRSection title="JOIN A GROUP">
           <div className="section-padding">
             <Row>
               <Col sm={3}>
@@ -290,7 +290,14 @@ export default function Home() {
 
       {/* Contact us form end */}
 
-      {/* adding google map */}
+      {/* adding google map 
+      
+      <iframe width="853" height="480" src="
+      https://www.youtube.com/embed/wEKrH_N4HAI
+      "
+
+       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      */}
 
       <section>
         <ResponsiveEmbed aspectRatio="16by9">

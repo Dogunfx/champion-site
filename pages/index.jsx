@@ -290,6 +290,25 @@ export default function Home() {
 
       {/* Contact us form end */}
 
+      {/* adding google map */}
+
+      <section>
+        <ResponsiveEmbed aspectRatio="16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1626612109867!2d5.765998314264373!3d5.542883335323805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041ad79bfff301f%3A0x7f1c47302ebfefc3!2sRCCG%20Champions%20Cathedral!5e0!3m2!1sen!2sng!4v1594352419738!5m2!1sen!2sng"
+            width="100%"
+            height="150"
+            frameborder="0"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </ResponsiveEmbed>
+      </section>
+
+      {/* adding map ends */}
+
       <footer className="cntr-footer"></footer>
     </>
   );

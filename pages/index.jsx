@@ -290,14 +290,7 @@ export default function Home() {
 
       {/* Contact us form end */}
 
-      {/* adding google map 
-      
-      <iframe width="853" height="480" src="
-      https://www.youtube.com/embed/wEKrH_N4HAI
-      "
-
-       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      */}
+      {/* adding google map */}
 
       <section>
         <ResponsiveEmbed aspectRatio="16by9">
